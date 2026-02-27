@@ -130,13 +130,13 @@ with st.container():
     st.subheader("📝 Academic Performance (Current Year)")
     c1, c2, c3, c4 = st.columns(4)
     with c1:
-        u1_app = st.number_input("Sem 1 Approved Units", 0, 20, 5)
+        u1_app = st.number_input("Sem 1 Approved Units (0 - 20)", 0, 20, 5)
     with c2:
-        u1_grd = st.number_input("Sem 1 Average Grade", 0.0, 20.0, 12.0)
+        u1_grd = st.number_input("Sem 1 Average Grade (0.0 - 20.0)", 0.0, 20.0, 12.0)
     with c3:
-        u2_app = st.number_input("Sem 2 Approved Units", 0, 20, 5)
+        u2_app = st.number_input("Sem 2 Approved Units (0 - 20)", 0, 20, 5)
     with c4:
-        u2_grd = st.number_input("Sem 2 Average Grade", 0.0, 20.0, 12.0)
+        u2_grd = st.number_input("Sem 2 Average Grade (0.0 - 20.0)", 0.0, 20.0, 12.0)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
